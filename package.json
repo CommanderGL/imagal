@@ -1,0 +1,26 @@
+{
+  "name": "imagal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/bundle.js",
+  "scripts": {
+    "build_dev": "webpack --mode=development",
+    "watch_dev": "webpack --watch --mode=development",
+    "build_prod": "webpack --mode=production",
+    "watch_prod": "webpack --watch --mode=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.8",
+    "css-loader": "^6.8.1",
+    "postcss": "^8.4.27",
+    "postcss-loader": "^7.3.3",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}

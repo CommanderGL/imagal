@@ -1,2 +1,0 @@
-# imagal
-Image Gallery Tool
